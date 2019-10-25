@@ -1,3 +1,13 @@
+#topic
+
+- input an array of int means turing on the order of switch
+- and the light is concatenation
+```
+input = [1,2,3,4,5] return 5
+input = [1,2,3,5,4] return 4
+input = [3,1,2,5,4] return 3
+```
+
 ```
 $ go test -v
 === RUN   TestSolver
