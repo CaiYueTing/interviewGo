@@ -26,3 +26,10 @@ func TestSolver(t *testing.T) {
 
 	}
 }
+
+func BenchmarkSolver(b *testing.B) {
+	// arr =[]int{9, 1, 6, 7, 2, 3, 4, 8, 5},
+	for i := 0; i < b.N; i++ {
+		Sol(60)
+	}
+}

@@ -1,7 +1,6 @@
 package sol
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -23,7 +22,7 @@ func Sol(input int) int {
 		el = result
 		result = []int{}
 	}
-	fmt.Println(el)
+	// fmt.Println(el)
 	count := 0
 	carry := 0
 	for i := len(el) - 1; i >= 0; i-- {
