@@ -1,5 +1,9 @@
 #topic
 
+#trend micro
+#dinngo
+#104
+
 - input an array of int means turing on the order of switch
 - and the light is concatenation
 ```
