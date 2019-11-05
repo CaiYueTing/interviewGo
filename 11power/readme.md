@@ -1,4 +1,5 @@
 #topic
+#trend micro
 
 - given n and return how much '1' in 11^n
 - hint: pascal triangle 
